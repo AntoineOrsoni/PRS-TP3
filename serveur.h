@@ -1,15 +1,14 @@
 //
-//  main.c
+//  serveur.h
 //  TP3 - Mécanismes TCP
 //
 //  Created by Orsoni Antoine on 05/06/2015.
 //  Copyright (c) 2015 Antoine ORSONI. All rights reserved.
 //
 
+#ifndef __TP3___Me_canismes_TCP__serveur__
+#define __TP3___Me_canismes_TCP__serveur__
+
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
-}
+#endif /* defined(__TP3___Me_canismes_TCP__serveur__) */
