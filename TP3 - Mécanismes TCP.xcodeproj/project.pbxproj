@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		711ACB2F1B21CD5B006598BE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 711ACB2E1B21CD5B006598BE /* main.c */; };
+		711ACB371B21CD7A006598BE /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 711ACB351B21CD7A006598BE /* client.c */; };
+		711ACB3A1B21CDAD006598BE /* serveur.c in Sources */ = {isa = PBXBuildFile; fileRef = 711ACB381B21CDAD006598BE /* serveur.c */; };
+		711ACB431B21DFE5006598BE /* fonctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 711ACB411B21DFE5006598BE /* fonctions.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,12 @@
 
 /* Begin PBXFileReference section */
 		711ACB2B1B21CD5B006598BE /* TP3 - Mécanismes TCP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TP3 - Mécanismes TCP"; sourceTree = BUILT_PRODUCTS_DIR; };
-		711ACB2E1B21CD5B006598BE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		711ACB351B21CD7A006598BE /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		711ACB361B21CD7A006598BE /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		711ACB381B21CDAD006598BE /* serveur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = serveur.c; sourceTree = "<group>"; };
+		711ACB391B21CDAD006598BE /* serveur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serveur.h; sourceTree = "<group>"; };
+		711ACB411B21DFE5006598BE /* fonctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fonctions.c; sourceTree = "<group>"; };
+		711ACB421B21DFE5006598BE /* fonctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fonctions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +48,12 @@
 		711ACB221B21CD5B006598BE = {
 			isa = PBXGroup;
 			children = (
+				711ACB351B21CD7A006598BE /* client.c */,
+				711ACB361B21CD7A006598BE /* client.h */,
+				711ACB381B21CDAD006598BE /* serveur.c */,
+				711ACB391B21CDAD006598BE /* serveur.h */,
+				711ACB411B21DFE5006598BE /* fonctions.c */,
+				711ACB421B21DFE5006598BE /* fonctions.h */,
 				711ACB2D1B21CD5B006598BE /* TP3 - Mécanismes TCP */,
 				711ACB2C1B21CD5B006598BE /* Products */,
 			);
@@ -57,7 +70,6 @@
 		711ACB2D1B21CD5B006598BE /* TP3 - Mécanismes TCP */ = {
 			isa = PBXGroup;
 			children = (
-				711ACB2E1B21CD5B006598BE /* main.c */,
 			);
 			path = "TP3 - Mécanismes TCP";
 			sourceTree = "<group>";
@@ -118,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				711ACB2F1B21CD5B006598BE /* main.c in Sources */,
+				711ACB431B21DFE5006598BE /* fonctions.c in Sources */,
+				711ACB371B21CD7A006598BE /* client.c in Sources */,
+				711ACB3A1B21CDAD006598BE /* serveur.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +249,7 @@
 				711ACB341B21CD5B006598BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

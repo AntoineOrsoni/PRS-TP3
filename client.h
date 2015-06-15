@@ -10,5 +10,16 @@
 #define __TP3___Me_canismes_TCP__client__
 
 #include <stdio.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <string.h>
+#include <arpa/inet.h>
+#include <sys/uio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <sys/select.h>
+#include <sys/time.h>
+#include "fonctions.h"
 
 #endif /* defined(__TP3___Me_canismes_TCP__client__) */
